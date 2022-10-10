@@ -1,0 +1,70 @@
+.contact {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  .contact .contact-heading {
+    margin-top: 55px;
+  }
+  .contact .contact-heading div {
+    font-family: Proxima;
+    font-size: 30px;
+    width: 125px;
+    border-bottom: 2px solid black;
+  }
+  .contact .contact-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .contact .contact-content .contact-left {
+    width: 400px;
+  }
+  .contact .contact-content .contact-left .contact-map {
+    width: 400px;
+    height: 442px;
+    background-image: url(../images/map.png);
+  }
+  .contact .contact-content .contact-left .contact-address {
+    margin-top: 34px;
+  }
+  .contact .contact-content .contact-left .contact-address p {
+    font-family: GillLight;
+    font-size: 18px;
+  }
+  .contact .contact-content .contact-right {
+    width: 529px;
+  }
+  .contact .contact-content .contact-right .contact-form {
+    width: 100%;
+  }
+  .contact .contact-content .contact-right .contact-form form {
+    font-size: 16px;
+  }
+  .contact .contact-content .contact-right .contact-form form input {
+    font-family: Gill;
+    font-size: 16px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 21px;
+    padding-left: 20px;
+  }
+  .contact .contact-content .contact-right .contact-form form textarea {
+    font-family: Gill;
+    font-size: 16px;
+    width: 100%;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .contact .contact-content .contact-right .contact-button button {
+    margin-top: 20px;
+    background-color: #79addc;
+    text-align: center;
+    color: #fff;
+    font-family: Gill;
+    font-size: 15px;
+    width: 168px;
+    height: 60px;
+    border: none;
+  }
+  

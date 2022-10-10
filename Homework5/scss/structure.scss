@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-bottom: 16px;
+}
+
+@font-face {
+    font-family: Gill;
+    src: url(fonts/GillSans/GillSans.ttf);
+  }
+  @font-face {
+    font-family: GillItalic;
+    src: url(fonts/GillSans/GillSans-Italic.ttf);
+  }
+  @font-face {
+    font-family: GillLight;
+    src: url(fonts/GillSans/GillSans-Light.ttf);
+  }
+  @font-face {
+    font-family: 'Quicksand', sans-serif;
+    src: url(fonts/Quicksand-Regular.otf);
+  }

@@ -1,0 +1,10 @@
+@media only screen and (max-width: 900px) {
+    .promo-tours {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .promo-tours .promo {
+      margin-bottom: 30px;
+    }
+  }

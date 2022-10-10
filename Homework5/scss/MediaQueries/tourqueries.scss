@@ -1,0 +1,32 @@
+@media only screen and (max-width: 900px) {
+    .tours {
+      max-width: 700px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .tour-container .preview-images {
+      flex-direction: column;
+      align-items: center;
+    }
+    .tour-container .preview-images .preview {
+      margin-bottom: 50px;
+    }
+  
+    .days {
+      width: 90%;
+      margin: 30px auto 0 auto;
+    }
+    .days .day {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .days .day .day-text {
+      text-align: center;
+    }
+}

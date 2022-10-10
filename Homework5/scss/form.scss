@@ -1,0 +1,112 @@
+.book-form {
+    padding-top: 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .book-form form {
+    max-width: 818px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .book-form form p {
+    font-size: 60px;
+    font-family: Proxima;
+  }
+  .book-form form .top {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .book-form form .top .left {
+    width: 344px;
+    height: 58px;
+  }
+  .book-form form .top .right {
+    width: 453px;
+    height: 58px;
+    float: right;
+  }
+  .book-form form .top input {
+    margin-bottom: 20px;
+    border: 1.5px solid #79addc;
+    font-family: GillLight;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .book-form form .checking {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .book-form form .checking div p {
+    font-size: 18px;
+    float: left;
+    padding-top: 17px;
+    font-family: GillLight;
+    font-weight: bold;
+  }
+  .book-form form .checking div input {
+    float: right;
+    height: 58px;
+    margin-bottom: 20px;
+    width: 698px;
+    border: 1.5px solid #79addc;
+    font-family: GillLight;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+    background-image: url(../images/form/calendar.svg);
+    background-repeat: no-repeat;
+    background-size: 1.5em;
+    background-position: 98% 50%;
+  }
+  .book-form form .people {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .book-form form .people div {
+    width: 27%;
+    font-family: GillLight;
+    font-weight: bold;
+  }
+  .book-form form .people div p {
+    font-family: GillLight;
+    float: left;
+    padding-top: 17px;
+    font-size: 18px;
+  }
+  .book-form form .people div select {
+    float: right;
+    width: 103px;
+    height: 58px;
+    margin-bottom: 20px;
+    border: 1.5px solid #79addc;
+    font-size: 18px;
+  }
+  .book-form form .message {
+    width: 100%;
+    height: 192px;
+    margin-bottom: 20px;
+    border: 1.5px solid #79addc;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: GillLight;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+  }
+  .book-form form button {
+    width: 813px;
+    height: 61px;
+    color: #fff;
+    background-color: #79addc;
+    border: none;
+    font-family: Gill;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  

@@ -1,0 +1,62 @@
+@media only screen and (max-width: 900px) {
+    .book-form {
+      padding-top: 10px;
+      width: 700px;
+    }
+    .book-form form p {
+      text-align: center;
+    }
+    .book-form form .top {
+      width: 100%;
+      text-align: center;
+    }
+    .book-form form .top .left {
+      width: 600px;
+    }
+    .book-form form .top .right {
+      width: 600px;
+      float: none;
+    }
+    .book-form form .top input {
+      width: 700px;
+    }
+    .book-form form .checking {
+      margin-top: -25px;
+      width: 700px;
+    }
+    .book-form form .checking div {
+      margin: 0 auto;
+    }
+    .book-form form .checking div p {
+      float: none;
+      font-size: 20px;
+      text-align: left;
+    }
+    .book-form form .checking div input {
+      width: 600px;
+    }
+    .book-form form .checking div .second-check {
+      margin-top: -25px;
+    }
+    .book-form form .people {
+      width: 600px;
+      margin: 0 auto;
+    }
+    .book-form form .people div {
+      width: 200px;
+    }
+    .book-form form .people div .small {
+      margin-left: 10px;
+    }
+    .book-form form .people div select {
+      width: 80px;
+    }
+    .book-form form .message {
+      margin: 0 auto;
+      width: 600px;
+    }
+    .book-form form button {
+      margin: 0 auto;
+      width: 600px;
+    }
+  }

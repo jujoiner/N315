@@ -1,0 +1,28 @@
+@media only screen and (max-width: 958px) {
+    .special-offers {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .special-offers .offer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .special-offers .offer .offer-image {
+      width: 300px;
+    }
+    .special-offers .offer .offer-content {
+      margin-top: 20px;
+      padding-left: 0px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .special-offers .offer .offer-content .percentage {
+      position: relative;
+    }
+    .special-offers .offer .offer-content .offer-button {
+      position: relative;
+      left: 0;
+    }
+}

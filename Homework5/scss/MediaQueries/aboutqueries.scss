@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1050px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+    }
+    .about .about-section {
+      text-align: center;
+    }
+    .about .about-section hr {
+      margin: -30px auto 30px auto;
+    }
+    .about .clients {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .about .clients .clients-heading {
+      text-align: center;
+    }
+    .about .clients .client {
+      flex-direction: column;
+      align-items: center;
+      min-height: 350px;
+    }
+    .about .clients .client .image {
+      height: 250px;
+      width: 385px;
+    }
+    .about .clients .client .client-text {
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+    .about .clients .client .client-text .quote {
+      text-align: center;
+    }
+    .about .clients .client .client-text .name {
+      position: relative;
+      text-align: center;
+    }
+    .about .clients .client:last-child {
+      margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,82 @@
+
+  .about {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  .about .about-section {
+    margin-top: 90px;
+    width: 100%;
+  }
+  .about .about-section .about-heading {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .about .about-section hr {
+    background-color: black;
+    height: 4px;
+    width: 140px;
+    margin-top: -30px;
+    margin-bottom: 36px;
+  }
+  .about .about-section .about-text {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .about .clients {
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    width: 100%;
+  }
+  .about .clients .clients-heading {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .about .clients hr {
+    background-color: black;
+    height: 4px;
+    width: 190px;
+    margin-top: -22px;
+  }
+  .about .clients .client {
+    max-width: 876px;
+    min-height: 150px;
+    display: flex;
+    margin-top: 40px;
+  }
+  .about .clients .client .image {
+    height: 400px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .about .clients .client .image img {
+    height: 100%;
+  }
+  .about .clients .client .client-1 {
+    background-image: url(../images/about-photo.jpg);
+  }
+  .about .clients .client .client-2 {
+    background-image: url(../images/about-photo-two.jpg);
+  }
+  .about .clients .client .client-text {
+    position: relative;
+    min-height: 50px;
+    margin-left: 25px;
+  }
+  .about .clients .client .client-text .quote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+  .about .clients .client .client-text .name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .about .clients .client:last-child {
+    margin-bottom: 80px;
+  }
+  

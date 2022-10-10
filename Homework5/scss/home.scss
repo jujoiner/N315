@@ -1,0 +1,13 @@
+.home{
+    background-color: rgb(118, 80, 146);
+    height: 100%;
+    padding: 100px 20px 20px 20px;
+    background-image: linear-gradient(to right, 
+                rgba(252, 124, 39, 0.5),
+                rgba(255, 120, 9, 0.377)
+                ), 
+                url(../images/aang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

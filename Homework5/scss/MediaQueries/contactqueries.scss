@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1050px) {
+    .contact {
+      width: 90%;
+      justify-content: space-between;
+    }
+    .contact .contact-heading {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .contact .contact-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact .contact-content .contact-left {
+      display: flex;
+      width: 90%;
+    }
+    .contact .contact-content .contact-left .contact-address {
+      width: 300px;
+      margin-top: 0px;
+      margin-left: 40px;
+    }
+    .contact .contact-content .contact-right {
+      margin-top: 20px;
+      width: 90%;
+    }
+    .contact .contact-content .contact-right .contact-button {
+      display: flex;
+      justify-content: center;
+    }
+    .contact .contact-content .contact-right .contact-button button {
+      width: 50%;
+    }
+  }

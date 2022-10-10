@@ -1,0 +1,71 @@
+.special-offers {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .special-offers .special-heading p {
+    font-size: 30px;
+    font-family: Proxima;
+  }
+  .special-offers .special-heading p span {
+    border-bottom: 2px solid black;
+  }
+  .special-offers .offer {
+    display: flex;
+    width: 560px;
+    margin-top: 35px;
+  }
+  .special-offers .offer .offer-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 287px;
+  }
+  .special-offers .offer .offer1 {
+    background-image: url(../images/becoming.jpg);
+  }
+  .special-offers .offer .offer2 {
+    background-image: url(../images/special-offers/special-offer-02.jpg);
+  }
+  .special-offers .offer .offer-content {
+    position: relative;
+    width: 390px;
+    padding-left: 20px;
+  }
+  .special-offers .offer .offer-content .offer-country {
+    font-size: 30px;
+    font-family: Proxima;
+  }
+  .special-offers .offer .offer-content .offer-country span {
+    border-bottom: 2px solid black;
+  }
+  .special-offers .offer .offer-content .percentage {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    color: #ff7d38;
+  }
+  .special-offers .offer .offer-content .offer-text {
+    margin-top: 28px;
+  }
+  .special-offers .offer .offer-content .offer-text p {
+    font-size: 16px;
+    font-family: GillLight;
+  }
+  .special-offers .offer .offer-content .offer-button {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+  }
+  .special-offers .offer .offer-content .offer-button button {
+    height: 40px;
+    width: 133px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #79addc;
+    border: none;
+    font-family: Gill;
+    font-weight: bold;
+    font-size: 15px;
+  }
