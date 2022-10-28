@@ -133,7 +133,7 @@ var viewContent = `<section class="talk">
         Voluptatum iste libero possimus? Quam, blanditiis beatae mollitia ex error ab! Excepturi quos distinctio, sapiente dicta cumque molestiae aliquid. Quam rerum deleniti natus, consequatur repellat provident officiis nostrum assumenda asperiores?
         At odit fugiat hic dicta, doloribus facilis aut reiciendis optio id voluptatem maiores libero iste repellendus nobis impedit qui sapiente omnis magnam ullam vel distinctio. Aut ex aspernatur ea optio?
     </div>
-    <div class="title"><a href="index.html">Main Page</a></div>
+    <div class="title"> <a id="home" href="#home">Main Page</a></div>
     <div class="things">
         <textarea style ="width: 1250px; height: 250px">
             <code>
